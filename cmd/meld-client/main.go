@@ -15,10 +15,10 @@ func main() {
 	app.Version = "0.1.0"
 	app.Email = ""
 	app.Commands = []cli.Command{
+		agentVersionCmd,
 		installSteamCmd,
 		installRustCmd,
 		installOxideCmd,
-		versionCmd,
 	}
 	app.Flags = []cli.Flag{
 		cli.StringFlag{

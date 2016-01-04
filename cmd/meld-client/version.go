@@ -7,13 +7,13 @@ import (
 	"github.com/codegangsta/cli"
 )
 
-var versionCmd = cli.Command{
+var agentVersionCmd = cli.Command{
 	Name:   "agent-version",
 	Usage:  "show agent version",
-	Action: versionCmdAction,
+	Action: agentVersionCmdAction,
 }
 
-func versionCmdAction(c *cli.Context) {
+func agentVersionCmdAction(c *cli.Context) {
 	addr := c.GlobalString("addr")
 
 	var ver int
