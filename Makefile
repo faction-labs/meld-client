@@ -16,6 +16,7 @@ endif
 all: build
 
 add-deps:
+	@rm -rf Godeps vendor
 	@GO15VENDOREXPERIMENT=1 godep save -t ./...
 
 build:
