@@ -19,6 +19,7 @@ func main() {
 		installSteamCmd,
 		installRustCmd,
 		installOxideCmd,
+		rustStartCmd,
 	}
 	app.Flags = []cli.Flag{
 		cli.StringFlag{

@@ -17,7 +17,11 @@
 		},
 		{
 			"ImportPath": "github.com/factionlabs/meld-agent/agent/meld",
-			"Rev": "47edad3926ae28aa2ef4ed62d5b0a932950c1594"
+			"Rev": "b7cc45bcdd509e6f59a7842fe3dd693bf8e5232d"
+		},
+		{
+			"ImportPath": "github.com/factionlabs/meld-agent/pkg/rust",
+			"Rev": "b7cc45bcdd509e6f59a7842fe3dd693bf8e5232d"
 		}
 	]
 }
