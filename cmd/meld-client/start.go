@@ -39,11 +39,11 @@ func rustStartCmdAction(c *cli.Context) {
 		URL:          "https://github.com/factionlabs/meld",
 	}
 
-	var success bool
+	var pid int
 
-	if err := client.Call("Meld.StartRust", args, &success); err != nil {
+	if err := client.Call("Meld.StartRust", args, &pid); err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("Rust Server Start: success=%v", success)
+	fmt.Printf("Rust Server Start: pid=%d\n", pid)
 }
