@@ -66,7 +66,7 @@ var rustStartCmd = cli.Command{
 		cli.IntFlag{
 			Name:  "worldsize",
 			Usage: "size of the world",
-			Value: 5050,
+			Value: 4096,
 		},
 		cli.IntFlag{
 			Name:  "save-interval",
