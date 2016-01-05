@@ -20,6 +20,7 @@ func main() {
 		installRustCmd,
 		installOxideCmd,
 		rustStartCmd,
+		rustStopCmd,
 	}
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
